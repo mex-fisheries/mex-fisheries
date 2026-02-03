@@ -1,6 +1,6 @@
 project:
   type: website
-
+  output-dir: docs
 website:
   title: "mex-fisheries"
   favicon: images/logo.png
