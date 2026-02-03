@@ -1,11 +1,111 @@
 ---
-title: "mex-fisheries"
+title: "Mexican Fisheries Data"
 ---
 
-This is a Quarto website.
+The **mex-fisheries** project provides an interoperable set of open datasets on Mexican fisheries: ports and landing sites, vessel monitoring (VMS), the vessel registry, and high-resolution landings. Together they support analysis of where fishing happens, who fishes, and what is landed.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+## Datasets
 
-```{r}
-1 + 1
-```
+:::: {.columns .dataset-cards}
+::: {.column width="50%"}
+
+::: {.card .dataset-card .mb-3}
+::: {.card-body}
+**[mex_vms](https://mex-fisheries.github.io/mex_vms/)**
+
+Vessel tracking data from Mexico's Vessel Monitoring System (SISMEP): identity, location, and timestamps for vessels that meet the reporting rules. Available as cleaned monthly files and on BigQuery with optional spatial and segmentation fields.
+
+::: {.dataset-meta}
+[![](https://zenodo.org/badge/1046400826.svg)](https://doi.org/10.5281/zenodo.17592443)
+
+Records: 106,131,978 · Variables: 24
+:::
+:::
+:::
+
+::: {.card .dataset-card .mb-3}
+::: {.card-body}
+**[mex_vessel_registry](https://mex-fisheries.github.io/mex_vessel_registry/)**
+
+A registry of Mexican fishing vessels built from official sources. Provides vessel identifiers and metadata for joining with VMS and landings data.
+
+::: {.dataset-meta}
+[![](https://zenodo.org/badge/1046470827.svg)](https://doi.org/10.5281/zenodo.17592460)
+
+Records: 66,074 · Variables: 41
+:::
+:::
+:::
+
+:::
+
+::: {.column width="50%"}
+
+::: {.card .dataset-card .mb-3}
+::: {.card-body}
+**[mex_landings](https://mex-fisheries.github.io/mex_landings/)**
+
+High-resolution landings for Mexican industrial and small-scale fisheries (~2000–2025), from CONAPESCA. Cleaned and standardized by economic unit, vessel, and landing site, with species groups, weight, and value.
+
+::: {.dataset-meta}
+[![](https://zenodo.org/badge/1046471161.svg)](https://doi.org/10.5281/zenodo.17592474)
+
+Records: 9,405,226 · Variables: 36
+:::
+:::
+:::
+
+::: {.card .dataset-card .mb-3}
+::: {.card-body}
+**[mex_ports](https://mex-fisheries.github.io/mex_ports/)**
+
+A geospatial dataset of major Mexican ports, including coordinates and links to CONAPESCA landing sites. Useful for mapping landings and connecting port-level data across the ecosystem.
+
+::: {.dataset-meta}
+[![](https://zenodo.org/badge/DOI/10.5281/zenodo.16942285.svg)](https://doi.org/10.5281/zenodo.16942285)
+
+Records: 151 · Variables: 7
+:::
+:::
+:::
+
+:::
+
+::::
+
+## In the pipeline
+
+:::: {.columns .dataset-cards}
+::: {.column width="50%"}
+
+::: {.card .dataset-card .mb-3}
+::: {.card-body}
+**mex_landing_sites**
+
+Landing sites dataset (in development).
+:::
+:::
+
+::: {.card .dataset-card .mb-3}
+::: {.card-body}
+**mex_fishing_grounds**
+
+Vessel-level fishing grounds (in development).
+:::
+:::
+
+:::
+
+::: {.column width="50%"}
+
+::: {.card .dataset-card .mb-3}
+::: {.card-body}
+**mex_TURFs**
+
+Territorial use rights for fishing (TURFs) dataset (in development).
+:::
+:::
+
+:::
+
+::::

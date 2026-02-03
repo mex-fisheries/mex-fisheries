@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Mexican Fisheries Data",
+    "section": "",
+    "text": "The mex-fisheries project provides an interoperable set of open datasets on Mexican fisheries: ports and landing sites, vessel monitoring (VMS), the vessel registry, and high-resolution landings. Together they support analysis of where fishing happens, who fishes, and what is landed."
+  },
+  {
+    "objectID": "index.html#datasets",
+    "href": "index.html#datasets",
+    "title": "Mexican Fisheries Data",
+    "section": "Datasets",
+    "text": "Datasets\n\n\n\n\nmex_vms\nVessel tracking data from Mexico’s Vessel Monitoring System (SISMEP): identity, location, and timestamps for vessels that meet the reporting rules. Available as cleaned monthly files and on BigQuery with optional spatial and segmentation fields.\n\n\nRecords: 106,131,978 · Variables: 24\n\n\n\n\n\nmex_vessel_registry\nA registry of Mexican fishing vessels built from official sources. Provides vessel identifiers and metadata for joining with VMS and landings data.\n\n\nRecords: 66,074 · Variables: 41\n\n\n\n\n\n\nmex_landings\nHigh-resolution landings for Mexican industrial and small-scale fisheries (~2000–2025), from CONAPESCA. Cleaned and standardized by economic unit, vessel, and landing site, with species groups, weight, and value.\n\n\nRecords: 9,405,226 · Variables: 36\n\n\n\n\n\nmex_ports\nA geospatial dataset of major Mexican ports, including coordinates and links to CONAPESCA landing sites. Useful for mapping landings and connecting port-level data across the ecosystem.\n\n\nRecords: 151 · Variables: 7"
+  },
+  {
+    "objectID": "index.html#in-the-pipeline",
+    "href": "index.html#in-the-pipeline",
+    "title": "Mexican Fisheries Data",
+    "section": "In the pipeline",
+    "text": "In the pipeline\n\n\n\n\nmex_landing_sites\nLanding sites dataset (in development).\n\n\n\n\nmex_fishing_grounds\nVessel-level fishing grounds (in development).\n\n\n\n\n\nmex_TURFs\nTerritorial use rights for fishing (TURFs) dataset (in development)."
+  }
+]

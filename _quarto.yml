@@ -3,19 +3,24 @@ project:
 
 website:
   title: "mex-fisheries"
+  favicon: images/logo.png
   navbar:
+    logo: images/logo.png
+    logo-alt: "mex-fisheries"
+    logo-href: index.qmd
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+  page-footer:
+    left: "[mex-fisheries](https://github.com/mex-fisheries) on GitHub"
+    right: ""
 
 format:
   html:
-    theme:
-      - cosmo
-      - brand
+    theme: flatly
     css: styles.css
-    toc: true
+    toc: false
+    mainfont: "Source Sans 3"
 
 
 
