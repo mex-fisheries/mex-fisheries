@@ -11,6 +11,11 @@ website:
     left:
       - href: index.qmd
         text: Home
+    right:
+      - text: "EN"
+        href: /index.html
+      - text: "ES"
+        href: /es/index.html
   page-footer:
     left: "[mex-fisheries](https://github.com/mex-fisheries) on GitHub"
     right: ""

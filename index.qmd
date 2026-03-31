@@ -1,5 +1,6 @@
 ---
 title: "Mexican Fisheries Data"
+lang: en
 ---
 
 The **mex-fisheries** project provides an interoperable set of open datasets on Mexican fisheries: ports and landing sites, vessel monitoring (VMS), the vessel registry, and high-resolution landings. Together they support analysis of where fishing happens, who fishes, and what is landed.
