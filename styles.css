@@ -67,6 +67,27 @@
   margin-top: 0.35rem;
 }
 
+/* GitHub "repo" link inside dataset-meta */
+.dataset-meta .github-link {
+  display: inline-block;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--bs-secondary-color, #6c757d);
+  text-decoration: none;
+  margin-right: 0.75rem;
+}
+
+.dataset-meta .github-link:hover {
+  color: var(--bs-body-color, #212529);
+  text-decoration: underline;
+}
+
+.dataset-meta .github-link .bi {
+  margin-right: 0.25rem;
+  font-size: 1rem;
+  vertical-align: -0.125em;
+}
+
 .dataset-cards {
   margin-top: 0.5rem;
 }
